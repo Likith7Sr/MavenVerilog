@@ -388,3 +388,332 @@ endmodule
 ```
 
 
+
+
+
+
+
+
+Certainly! Here's the formatted content for your GitHub README file:
+
+---
+
+# Maven Assignment 2 - Verilog Operators and ALU
+
+## 1. Operators
+
+### SUM
+**CODE:**
+```verilog
+module sum(input [3:0]a, input [3:0]b, output [3:0]result);
+   assign result = a + b;
+endmodule
+```
+
+**NETLIST:**
+
+### SUBTRACTOR
+**CODE:**
+```verilog
+module sub(input [3:0]a, input [3:0]b, output [3:0]result);
+   assign result = a - b;
+endmodule
+```
+
+**NETLIST:**
+
+### MULTIPLICATION
+**CODE:**
+```verilog
+module mul(input [3:0]a, input [3:0]b, output [3:0]result);
+   assign result = a * b;
+endmodule
+```
+
+**NETLIST:**
+
+### DIVISION
+**CODE:**
+```verilog
+module div(input [3:0]a, input [3:0]b, output [3:0]result);
+   assign result = a / b;
+endmodule
+```
+
+**NETLIST:**
+
+### AND
+**CODE:**
+```verilog
+module and_gate(input a, input b, output result);
+   assign result = a & b;
+endmodule
+```
+
+**NETLIST:**
+
+### OR
+**CODE:**
+```verilog
+module or_gate(input a, input b, output result);
+   assign result = a | b;
+endmodule
+```
+
+**NETLIST:**
+
+### XOR
+**CODE:**
+```verilog
+module xor_gate(input a, input b, output result);
+   assign result = a ^ b;
+endmodule
+```
+
+**NETLIST:**
+
+### EQUAL
+**CODE:**
+```verilog
+module equal_op(input a, input b, output result);
+   assign result = (a == b);
+endmodule
+```
+
+**NETLIST:**
+
+### LEFT SHIFT
+**CODE:**
+```verilog
+module Left_Shift(input [3:0] data, output [7:0] result);
+   assign result = data << 2;
+endmodule
+```
+
+**NETLIST:**
+
+### RIGHT SHIFT
+**CODE:**
+```verilog
+module Right_Shift(input [3:0] data, output [7:0] result);
+   assign result = data >> 2;
+endmodule
+```
+
+**NETLIST:**
+
+### CONDITION OPERATOR
+**CODE:**
+```verilog
+module Conditional_Op(input condition, input true_result, input false_result, output result);
+   assign result = (condition) ? true_result : false_result;
+endmodule
+```
+
+**NETLIST:**
+
+## 2. ALU
+
+**CODE:**
+```verilog
+module ALU(input [7:0]a, input [7:0]b, input [2:0]opcode, input clk, input rst, output reg [7:0]result);
+   always @(posedge clk) begin
+      if (rst) begin
+         result = 8'b0;
+      end else begin
+         case (opcode)
+            3'b000: result <= a + b;
+            3'b001: result <= a - b;
+            3'b010: result <= a * b;
+            3'b011: result <= a / b;
+            3'b100: result <= a & b;
+            3'b101: result <= a | b;
+            3'b110: result <= a ^ b;
+            3'b111: result <= (a > b) ? 8'b1 : 8'b0;
+         endcase
+      end
+   end
+endmodule
+```
+
+**TESTBENCH:**
+```verilog
+module ALU_tb;
+   reg [7:0] a;
+   reg [7:0] b;
+   reg [2:0] opcode;
+   reg clk, rst;
+   wire [7:0] result;
+   integer i;
+   ALU dut(a, b, opcode, clk, rst, result);
+
+   initial begin
+      a = 8'b01100011;
+      b = 8'b00011001;
+      clk = 0;
+      rst = 0;
+      opcode = 8'b0;
+   end
+
+   always begin
+      #5 clk = ~clk;
+   end
+
+   initial begin
+      rst = 1;
+      #10 rst = 0;
+      for (i = 0; i < 8; i = i + 1) begin
+         opcode = i;
+         #10;
+      end
+   end
+endmodule
+```
+
+
+
+
+
+
+
+
+
+Certainly! Here's the formatted content for your GitHub README file:
+
+---
+
+# Maven Assignment 3 - Verilog Behavioral Descriptions and Testbenches
+
+## 1. 4:1 MUX
+
+### CODE:
+```verilog
+module mux_4_1(input [3:0] in, input [1:0] sel, output reg out);
+   always @(*) begin
+      case(sel)
+         2'b00: out <= in[0];
+         2'b01: out <= in[1];
+         2'b10: out <= in[2];
+         2'b11: out <= in[3];
+         default: out <= 1'b0;
+      endcase
+   end
+endmodule
+```
+
+### TESTBENCH:
+```verilog
+module mux_4_1_tb;
+   reg [3:0] in;
+   reg [1:0] sel;
+   wire out;
+   integer i;
+   integer j;
+   mux_4_1 dut(in, sel, out);
+
+   initial begin
+      for (i = 0; i < 4; i = i + 1) begin
+         sel = i;
+         #10;
+      end
+      for (j = 0; j < 16; j = j + 1) begin
+         in = j;
+         #10;
+      end
+   end
+endmodule
+```
+
+## 2. 3:8 Decoder
+
+### CODE:
+```verilog
+module decoder_3_8(input [2:0] in, output reg [7:0] out);
+   always @* begin
+      case(in)
+         3'b000: out = 8'b0000_0001;
+         3'b001: out = 8'b0000_0010;
+         3'b010: out = 8'b0000_0100;
+         3'b011: out = 8'b0000_1000;
+         3'b100: out = 8'b0001_0000;
+         3'b101: out = 8'b0010_0000;
+         3'b110: out = 8'b0100_0000;
+         3'b111: out = 8'b1000_0000;
+         default: out = 8'b0000_0000;
+      endcase
+   end
+endmodule
+```
+
+### TESTBENCH:
+```verilog
+module decoder_3_8_tb;
+   reg [2:0] in;
+   wire [7:0] out;
+   integer i;
+   decoder_3_8 dut(in, out);
+
+   initial begin
+      in = 3'b000;
+   end
+
+   initial begin
+      for (i = 0; i < 8; i = i + 1) begin
+         in = i;
+         #10;
+      end
+   end
+endmodule
+```
+
+## 3. 8:3 Priority Encoder
+
+### CODE:
+```verilog
+module encoder_8_3 (
+   input [7:0] in,
+   output reg [2:0] out
+);
+
+always @* begin
+   if (in[7] == 1)
+      out = 3'b111;
+   else if (in[6] == 1)
+      out = 3'b110;
+   else if (in[5] == 1)
+      out = 3'b101;
+   else if (in[4] == 1)
+      out = 3'b100;
+   else if (in[3] == 1)
+      out = 3'b011;
+   else if (in[2] == 1)
+      out = 3'b010;
+   else if (in[1] == 1)
+      out = 3'b001;
+   else
+      out = 3'b000;
+end
+
+endmodule
+```
+
+### TESTBENCH:
+```verilog
+module encoder_8_3_tb;
+   reg [7:0] in;
+   wire [2:0] out;
+   integer i;
+   encoder_8_3 dut(in, out);
+
+   initial begin
+      for(i = 0; i < 256; i = i + 5) begin
+         in = i;
+         #10;
+      end
+   end
+endmodule
+```
+
+
+
+
