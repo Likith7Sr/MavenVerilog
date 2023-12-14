@@ -1,0 +1,7 @@
+|Conditional_Op
+condition => result.OUTPUTSELECT
+true_result => result.DATAB
+false_result => result.DATAA
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

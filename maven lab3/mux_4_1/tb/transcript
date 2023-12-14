@@ -1,0 +1,16 @@
+# Compile of mux_4_1.v was successful.
+# Compile of mux_4_1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of mux_4_1.v was successful.
+# Compile of mux_4_1_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.mux_4_1_tb
+# vsim -gui work.mux_4_1_tb 
+# Start time: 23:32:09 on Dec 05,2023
+# Loading work.mux_4_1_tb
+# Loading work.mux_4_1
+add wave sim:/mux_4_1_tb/*
+run -all
+# End time: 23:56:04 on Dec 05,2023, Elapsed time: 0:23:55
+# Errors: 0, Warnings: 0

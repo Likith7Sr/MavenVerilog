@@ -1,0 +1,15 @@
+C:/Users/Likith/Desktop/MyVerilog/prio_encoder_8_3/tb/prio_encoder_8_3_tb.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/prio_encoder_8_3/tb/prio_encoder_8_3_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module prio_encoder_8_3_tb
+
+Top level modules:
+	prio_encoder_8_3_tb
+
+} {} {}} C:/Users/Likith/Desktop/MyVerilog/prio_encoder_8_3/rtl/prio_encoder_8_3.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/prio_encoder_8_3/rtl/prio_encoder_8_3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module prio_encoder_8_3
+
+Top level modules:
+	prio_encoder_8_3
+
+} {} {}}

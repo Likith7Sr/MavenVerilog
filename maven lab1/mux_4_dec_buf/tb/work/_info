@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vbuffer
+Z0 !s110 1701175938
+!i10b 1
+!s100 RjO<PfVNA47Fg@JVGF2]z1
+I<[^ne?@<263lRiOS;<@dG1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/tb
+w1701170975
+8C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v
+FC:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701175938.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdecoder
+R0
+!i10b 1
+!s100 _7H2T[HRiz2Mc8hkXTUQ60
+IY86L>^<A:X>@DCE6><^?c0
+R1
+R2
+w1701172083
+8C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v
+FC:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v|
+!i113 1
+R5
+R6
+vmux_4_dec_buf
+R0
+!i10b 1
+!s100 cD15OLg[E:9HWX7Oj<Xo`0
+I`TSjIz1g;^_J]fTo?nAXS2
+R1
+R2
+w1701175260
+8C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v
+FC:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v|
+!i113 1
+R5
+R6

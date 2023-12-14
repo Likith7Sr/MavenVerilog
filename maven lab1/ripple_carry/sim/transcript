@@ -1,0 +1,25 @@
+# Compile of full_adder.v was successful.
+# Compile of ripple_carry.v was successful.
+# Compile of ripple_carry_tb.v failed with 4 errors.
+# 3 compiles, 1 failed with 4 errors.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/ripple_carry/sim/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/ripple_carry/tb/ripple_carry_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/ripple_carry/sim/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/ripple_carry/tb/ripple_carry_tb.v' doesn't exist.
+# Compile of ripple_carry_tb.v failed with 4 errors.
+# Compile of ripple_carry_tb.v failed with 2 errors.
+# Compile of ripple_carry_tb.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of ripple_carry.v was successful.
+# Compile of ripple_carry_tb.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.ripple_carry_tb
+# vsim -gui work.ripple_carry_tb 
+# Start time: 16:32:28 on Nov 28,2023
+# Loading work.ripple_carry_tb
+# Loading work.ripple_carry
+# Loading work.full_adder
+# ** Warning: (vsim-3015) C:/Users/Likith/Desktop/MyVerilog/ripple_carry/tb/ripple_carry_tb.v(7): [PCDPC] - Port size (4) does not match connection size (1) for port 'SUM'. The port definition is at: C:/Users/Likith/Desktop/MyVerilog/ripple_carry/rtl/ripple_carry.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /ripple_carry_tb/dut File: C:/Users/Likith/Desktop/MyVerilog/ripple_carry/rtl/ripple_carry.v
+add wave sim:/ripple_carry_tb/*
+run -all
+# End time: 16:43:55 on Nov 28,2023, Elapsed time: 0:11:27
+# Errors: 0, Warnings: 1

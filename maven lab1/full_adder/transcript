@@ -1,0 +1,59 @@
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/full_adder/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder_tb.v' doesn't exist.
+# Compile of full_adder_tb.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of full_adder_tb.v failed with 1 errors.
+# Compile of full_adder_tb.v was successful.
+# 4 compiles, 1 failed with 1 error.
+vsim -gui work.full_adder_tb
+# vsim -gui work.full_adder_tb 
+# Start time: 19:04:55 on Nov 27,2023
+# Loading work.full_adder_tb
+# Loading work.full_adder
+# Loading work.half_adder
+add wave sim:/full_adder_tb/*
+run -all
+# Input a=0, b=0, c=0, Output sum =0, carry=0
+# Input a=0, b=0, c=1, Output sum =1, carry=0
+# Input a=0, b=1, c=0, Output sum =1, carry=0
+# Input a=0, b=1, c=1, Output sum =0, carry=1
+# Input a=1, b=0, c=0, Output sum =1, carry=0
+# Input a=1, b=0, c=1, Output sum =0, carry=1
+# Input a=1, b=1, c=0, Output sum =0, carry=1
+# Input a=1, b=1, c=1, Output sum =1, carry=1
+# ** Note: $finish    : C:/Users/Likith/Downloads/full_adder_tb.v(30)
+#    Time: 100 ps  Iteration: 0  Instance: /full_adder_tb
+# 1
+# Break in Module full_adder_tb at C:/Users/Likith/Downloads/full_adder_tb.v line 30
+# End time: 19:19:44 on Nov 27,2023, Elapsed time: 0:14:49
+# Errors: 0, Warnings: 0

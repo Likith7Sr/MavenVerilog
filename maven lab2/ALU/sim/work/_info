@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb
+vALU
+Z0 !s110 1701794186
+!i10b 1
+!s100 gJ@RiBX2=>ZUDmz[;B6B91
+IRhm9A:kE7QMWcZm[do:ed0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/sim
+w1701792003
+8C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701794186.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_tb
+R0
+!i10b 1
+!s100 6UL@2PD0^gldKj1aUDeXi1
+I2[BNY8RZkJ^XeIhz8V0cM3
+R1
+R2
+w1701794166
+8C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v|
+!i113 1
+R5
+R6
+n@a@l@u_tb

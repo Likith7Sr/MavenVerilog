@@ -1,0 +1,85 @@
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Error opening C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/sim/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v
+# Path name 'C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/sim/(vlog-13069) C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v' doesn't exist.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ALU_tb.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# vsim -gui work.ALU_tb 
+# Start time: 21:58:09 on Dec 05,2023
+# Loading work.ALU_tb
+# Loading work.ALU
+# ** Warning: (vsim-3015) C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v(8): [PCDPC] - Port size (8) does not match connection size (1) for port 'result'. The port definition is at: C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/dut File: C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v
+add wave sim:/ALU_tb/*
+run -all
+add wave sim:/ALU_tb/dut/*
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of ALU_tb.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# End time: 22:04:24 on Dec 05,2023, Elapsed time: 0:06:15
+# Errors: 12, Warnings: 2
+# vsim -gui work.ALU_tb 
+# Start time: 22:04:24 on Dec 05,2023
+# Loading work.ALU_tb
+# Loading work.ALU
+# ** Warning: (vsim-3015) C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v(8): [PCDPC] - Port size (8) does not match connection size (1) for port 'result'. The port definition is at: C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_tb/dut File: C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/rtl/ALU.v
+add wave sim:/ALU_tb/*
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.ALU_tb
+# End time: 22:06:38 on Dec 05,2023, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 1
+# vsim -gui work.ALU_tb 
+# Start time: 22:06:38 on Dec 05,2023
+# Loading work.ALU_tb
+# Loading work.ALU
+add wave sim:/ALU_tb/*
+run -all
+# Break key hit
+# Break in Module ALU_tb at C:/Users/Likith/Desktop/MyVerilog/maven lab2/ALU/tb/ALU_tb.v line 19
+# End time: 22:33:45 on Dec 05,2023, Elapsed time: 0:27:07
+# Errors: 0, Warnings: 0

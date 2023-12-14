@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vbi_dir_buf
+Z0 !s110 1701108150
+!i10b 1
+!s100 @mgZB@gYVJNU;k^NQkHVE0
+IVCd5VX0cIFKD_U?GR@:`[3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/sim
+w1701105767
+8C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/rtl/bi_dir_buf.v
+FC:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/rtl/bi_dir_buf.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701108150.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/rtl/bi_dir_buf.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/rtl/bi_dir_buf.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vbi_dir_buf_tb
+R0
+!i10b 1
+!s100 I8SLmC7H=<0lWegdz6WXS2
+IBbBcHKWGg7fH^o@i0UP721
+R1
+R2
+w1701108082
+8C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/tb/bi_dir_buf_tb.v
+FC:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/tb/bi_dir_buf_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/tb/bi_dir_buf_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/bi_dir_buf/tb/bi_dir_buf_tb.v|
+!i113 1
+R5
+R6

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/tb
+vmux_4_1
+Z0 !s110 1701799320
+!i10b 1
+!s100 1[<6VU6FV6la^UT3]hhR02
+I:6RFL[e?A@lK8aON];fPI2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/sim
+w1701798041
+8C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/rtl/mux_4_1.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/rtl/mux_4_1.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701799320.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/rtl/mux_4_1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/rtl/mux_4_1.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmux_4_1_tb
+R0
+!i10b 1
+!s100 IdAAYnYa4H_NdBUXKlVM32
+I`]FETR?W>l>^Ykn4JK]iC3
+R1
+R2
+w1701799314
+8C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/tb/mux_4_1_tb.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/tb/mux_4_1_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/tb/mux_4_1_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab3/mux_4_1/tb/mux_4_1_tb.v|
+!i113 1
+R5
+R6

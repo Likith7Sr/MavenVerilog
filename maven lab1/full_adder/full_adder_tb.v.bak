@@ -1,0 +1,21 @@
+module full_adder_tb();
+reg a_in,b_in,c_in;
+wire sum_out,carry_out;
+integer i;
+full_adder dut(a_in,b_in,c_in,sum_out,carry_out);
+initial
+begin
+a_in=0;
+b_in=0;
+c_in=0;
+end
+initial
+begin
+for(i=0;i<8;i=i+1)
+begin
+#10 {a_in,b_in,c_in}=i;
+end
+end
+#100 $finish;
+endmodule
+

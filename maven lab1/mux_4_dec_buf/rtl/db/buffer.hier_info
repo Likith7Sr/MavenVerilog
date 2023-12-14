@@ -1,0 +1,6 @@
+|buffer
+in => out$latch.DATAIN
+control => out$latch.LATCH_ENABLE
+out <= out$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

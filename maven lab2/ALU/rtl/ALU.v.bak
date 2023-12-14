@@ -1,0 +1,4 @@
+module ALU([7:0]a,[7:0]b,[2:0]opcode,[7:0]result);
+input [7:0]a,[7:0]b,[2:0]opcode;
+output result;
+endmodule 

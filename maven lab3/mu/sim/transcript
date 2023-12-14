@@ -1,0 +1,12 @@
+# Compile of mu.v was successful.
+# Compile of mu_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.mu_tb
+# vsim -gui work.mu_tb 
+# Start time: 11:25:28 on Dec 09,2023
+# Loading work.mu_tb
+# Loading work.mu
+add wave sim:/mu_tb/*
+run -all
+# End time: 11:29:53 on Dec 09,2023, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 0

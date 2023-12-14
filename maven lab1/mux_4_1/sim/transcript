@@ -1,0 +1,19 @@
+# Compile of mux_2_1.v was successful.
+# Compile of mux_4_1.v was successful.
+# Compile of mux_4_1_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of mux_2_1.v was successful.
+# Compile of mux_4_1.v was successful.
+# Compile of mux_4_1_tb.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of mux_4_1_tb.v was successful.
+vsim -gui work.mux_4_1_tb
+# vsim -gui work.mux_4_1_tb 
+# Start time: 22:31:36 on Nov 27,2023
+# Loading work.mux_4_1_tb
+# Loading work.mux_4_1
+# Loading work.mux_2_1
+add wave sim:/mux_4_1_tb/*
+run -all
+# End time: 22:40:32 on Nov 27,2023, Elapsed time: 0:08:56
+# Errors: 0, Warnings: 0

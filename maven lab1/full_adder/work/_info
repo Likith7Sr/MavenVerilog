@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vfull_adder
+Z0 !s110 1701092067
+!i10b 1
+!s100 T]felW?;LGaNPaKTP4mB43
+IzcUfLASQWBl2:A1g6?kSc1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/full_adder
+w1701087445
+8C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder.v
+FC:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1701092067.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/full_adder/full_adder.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vfull_adder_tb
+!s110 1701092068
+!i10b 1
+!s100 [n=BKPC6>;XLQ<hG?IY`_1
+Ij1YOJG0@nTRd;ThF9GEfD1
+R1
+R2
+w1701086462
+8C:/Users/Likith/Downloads/full_adder_tb.v
+FC:/Users/Likith/Downloads/full_adder_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Downloads/full_adder_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Downloads/full_adder_tb.v|
+!i113 1
+R5
+R6
+vhalf_adder
+R0
+!i10b 1
+!s100 e<Q@a^UP<AYfFB?F^gakU3
+IBSKk2QADX>9TEJd]j:JDh0
+R1
+R2
+w1701090846
+8C:/Users/Likith/Desktop/MyVerilog/full_adder/half_adder.v
+FC:/Users/Likith/Desktop/MyVerilog/full_adder/half_adder.v
+L0 24
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Likith/Desktop/MyVerilog/full_adder/half_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/full_adder/half_adder.v|
+!i113 1
+R5
+R6

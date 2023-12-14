@@ -1,0 +1,13 @@
+# Compile of half_adder_tb.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of half_adder_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.halfadder_tb
+# vsim -gui work.halfadder_tb 
+# Start time: 17:13:36 on Nov 27,2023
+# Loading work.halfadder_tb
+# Loading work.halfadder
+add wave sim:/halfadder_tb/*
+run -all
+# End time: 17:19:33 on Nov 27,2023, Elapsed time: 0:05:57
+# Errors: 0, Warnings: 0

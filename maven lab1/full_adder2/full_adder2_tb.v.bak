@@ -1,0 +1,19 @@
+module full_adder2_tb();
+input a,b,c;
+output sum,carry;
+integer i;
+full_adder2 dut(a,b,c,sum,carry);
+initial
+	begin
+	a=0;b=0;c=0;
+	end
+initial
+	begin
+	for(i=0;i<8;i=i+1)
+        begin
+	{a,b,c}=i;
+	#10;
+	end
+initial
+#100 $finish;
+endmodule

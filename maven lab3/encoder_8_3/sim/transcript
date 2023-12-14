@@ -1,0 +1,27 @@
+# Compile of encoder_8_3.v was successful.
+# Compile of encoder_8_3_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.encoder_8_3_tb
+# vsim -gui work.encoder_8_3_tb 
+# Start time: 18:54:10 on Dec 07,2023
+# Loading work.encoder_8_3_tb
+add wave sim:/encoder_8_3_tb/*
+run -all
+# Compile of encoder_8_3_tb.v failed with 2 errors.
+# Compile of encoder_8_3_tb.v failed with 2 errors.
+# Compile of encoder_8_3_tb.v failed with 2 errors.
+# Compile of encoder_8_3_tb.v was successful.
+# Compile of encoder_8_3.v was successful.
+# Compile of encoder_8_3_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.encoder_8_3_tb
+# End time: 19:01:13 on Dec 07,2023, Elapsed time: 0:07:03
+# Errors: 0, Warnings: 0
+# vsim -gui work.encoder_8_3_tb 
+# Start time: 19:01:13 on Dec 07,2023
+# Loading work.encoder_8_3_tb
+# Loading work.encoder_8_3
+add wave sim:/encoder_8_3_tb/*
+run -all
+# End time: 19:05:15 on Dec 07,2023, Elapsed time: 0:04:02
+# Errors: 0, Warnings: 0

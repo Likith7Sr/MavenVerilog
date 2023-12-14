@@ -1,0 +1,29 @@
+C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/tb/mux_4_dec_buf_tb.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/tb/mux_4_dec_buf_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_4_dec_buf_tb
+
+Top level modules:
+	mux_4_dec_buf_tb
+
+} {} {}} C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/decoder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module decoder
+
+Top level modules:
+	decoder
+
+} {} {}} C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/buffer.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module buffer
+
+Top level modules:
+	buffer
+
+} {} {}} C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v {1 {vlog -work work -stats=none C:/Users/Likith/Desktop/MyVerilog/mux_4_dec_buf/rtl/mux_4_dec_buf.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_4_dec_buf
+
+Top level modules:
+	mux_4_dec_buf
+
+} {} {}}

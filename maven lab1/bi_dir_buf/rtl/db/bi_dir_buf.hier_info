@@ -1,0 +1,12 @@
+|bi_dir_buf
+send_data => data_to_buffer[0]$latch.LATCH_ENABLE
+send_data => data_to_buffer[1]$latch.LATCH_ENABLE
+send_data => data_to_buffer[2]$latch.LATCH_ENABLE
+recv_data => temp[0].OE
+recv_data => temp[1].OE
+recv_data => temp[2].OE
+data_to_buffer[0] <= data_to_buffer[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_to_buffer[1] <= data_to_buffer[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+data_to_buffer[2] <= data_to_buffer[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/19.1
+vdecoder_3_8
+Z0 !s110 1701953405
+!i10b 1
+!s100 6C:L_=VZ2PEJjD_?EWkTh1
+IZ<7b?Da8H=b_2?gmk<6Q72
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/sim
+w1701952933
+8C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/rtl/decoder_3_8.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/rtl/decoder_3_8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1701953404.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/rtl/decoder_3_8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/rtl/decoder_3_8.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vdecoder_3_8_tb
+R0
+!i10b 1
+!s100 G>mZ@RO3<YK:3NhTJjPjC0
+IOIo4OU:;`QV_QPJ>=YRhY3
+R1
+R2
+w1701953287
+8C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/tb/decoder_3_8_tb.v
+FC:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/tb/decoder_3_8_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1701953405.000000
+!s107 C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/tb/decoder_3_8_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Likith/Desktop/MyVerilog/maven lab3/decoder_3_8/tb/decoder_3_8_tb.v|
+!i113 1
+R4
+R5

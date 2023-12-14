@@ -1,0 +1,12 @@
+# Compile of prio_encoder_8_3.v was successful.
+# Compile of prio_encoder_8_3_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.prio_encoder_8_3_tb
+# vsim -gui work.prio_encoder_8_3_tb 
+# Start time: 22:14:40 on Nov 28,2023
+# Loading work.prio_encoder_8_3_tb
+# Loading work.prio_encoder_8_3
+add wave sim:/prio_encoder_8_3_tb/*
+run -all
+# End time: 22:18:19 on Nov 28,2023, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 0
